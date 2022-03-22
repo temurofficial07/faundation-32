@@ -145,11 +145,6 @@ multiply.move(200, 100)
 multiply.setFont(QFont("Times", 10))
 multiply.clicked.connect(Multipy)
 
-devide = QPushButton(" / ", oyna)
-devide.move(20, 150)
-devide.setFont(QFont("Times", 10))
-devide.clicked.connect(Devide)
-
 percent = QPushButton(" % ", oyna)
 percent.move(110, 150)
 percent.setFont(QFont("Times", 10))
@@ -159,6 +154,11 @@ degree = QPushButton(" x^y ", oyna)
 degree.move(200, 150)
 degree.setFont(QFont("Times", 10))
 degree.clicked.connect(Degree)
+
+devide = QPushButton(" / ", oyna)
+devide.move(20, 150)
+devide.setFont(QFont("Times", 10))
+devide.clicked.connect(Devide)
 
 oyna.show()
 sys.exit(app.exec_())
